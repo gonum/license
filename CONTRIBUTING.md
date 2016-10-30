@@ -77,7 +77,7 @@ As a rule we keep all tests OK.
 ### Suggesting Enhancements
 
 If the scope of the enhancement is small, open an issue.
-If it is large, such as suggesting a new repo, sub-repo, or interface refactoring, then please start a discussion on the gonum-dev list.
+If it is large, such as suggesting a new repo, sub-repo, or interface refactoring, then please start a discussion on [the gonum-dev list](https://groups.google.com/forum/#!forum/gonum-dev).
 
 ### Your First Code Contribution
 
