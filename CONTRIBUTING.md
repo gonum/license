@@ -9,7 +9,7 @@ This document is for anyone who is contributing or interested in contributing.
 [Getting Started](#getting-started)
   * [Working Together](#working-together)
   * [Project Goals](#project-goals)
-  * [The Gonum Repos](#the-gonum-repos)
+  * [The Gonum Repositories](#the-gonum-repositories)
 
 [How to Contribute](#how-to-contribute)
   * [Reporting Bugs](#reporting-bugs)
@@ -42,9 +42,9 @@ The libraries should aim to provide building blocks for disciplinary work and ad
 Code should be implemented in pure Go.
 Calls to assembly, C, Fortran, or other languages may be justified with performance considerations, but should be opt-in for users.
 
-### The Gonum Repos
+### The Gonum Repositories
 
-Here are the current repos for the gonum project.
+Here are the current repositories for the gonum project.
 If code you want to contribute doesn't quite fit in any of them, then please start a discussion on the [mailing list](https://groups.google.com/forum/#!forum/gonum-dev).
 
 * [matrix](https://github.com/gonum/matrix) - Matrix packages for the Go language.
@@ -68,8 +68,8 @@ If code you want to contribute doesn't quite fit in any of them, then please sta
 
 ### Reporting Bugs
 
-When you encounter a bug, please open an issue on the corresponding repo.
-Start the issue title with the repo/subrepo name, like `stat/distmv: Issue Name`.
+When you encounter a bug, please open an issue on the corresponding repository.
+Start the issue title with the repository/sub-repository name, like `stat/distmv: issue name`.
 Be specific about the environment you encountered the bug in.
 If you are able to write a test that reproduces the bug, please include it in the issue.
 As a rule we keep all tests OK.
@@ -77,35 +77,35 @@ As a rule we keep all tests OK.
 ### Suggesting Enhancements
 
 If the scope of the enhancement is small, open an issue.
-If it is large, such as suggesting a new repo, sub-repo, or interface refactoring, then please start a discussion on [the gonum-dev list](https://groups.google.com/forum/#!forum/gonum-dev).
+If it is large, such as suggesting a new repository, sub-repository, or interface refactoring, then please start a discussion on [the gonum-dev list](https://groups.google.com/forum/#!forum/gonum-dev).
 
 ### Your First Code Contribution
 
 If you are a new contributor, thank you!  Before your first merge, you will need to be added to the [CONTRIBUTORS](https://github.com/gonum/license/blob/master/CONTRIBUTORS) and [AUTHORS](https://github.com/gonum/license/blob/master/AUTHORS) file.
 Open a pull request adding yourself to them.
-All Gonum code follows the BSD license in the license document.
+All Gonum code follows the BSD license in the [license document](https://github.com/gonum/license/blob/master/LICENSE).
 We prefer that code contributions do not come with additional licensing.
 For exceptions, added code must also follow a BSD license.
 
 ### Code Contribution
 
-If it is possible to split a large pull into two or more smaller pull requests, please try to do so.
-Pulls should include tests for any new code before merging.
+If it is possible to split a large pull request into two or more smaller pull requests, please try to do so.
+Pull requests should include tests for any new code before merging.
 It is ok to start a pull request on partially implemented code to get feedback, and see if your approach to a problem is sound.
-You don't need have to have tests, or even have code that compiles to open a pull.
-Benchmarks are optional for new features, but if you are submitting a pull justified by performance improvment, you will need benchmarks to measure the impact of your change, and the pull should include a report from [benchcmp](https://godoc.org/golang.org/x/tools/cmd/benchcmp) or [benchstat](https://github.com/rsc/benchstat).
+You don't need to have tests, or even have code that compiles to open a pull request.
+Benchmarks are optional for new features, but if you are submitting a pull request justified by performance improvement, you will need benchmarks to measure the impact of your change, and the pull request should include a report from [benchcmp](https://godoc.org/golang.org/x/tools/cmd/benchcmp) or, preferably, [benchstat](https://github.com/rsc/benchstat).
 
 ### Code Review
 
 If you are a contributor, please be welcoming to new contributors.  [Here](http://sarah.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/) is a good guide.
 We follow the convention of requiring at least 1 LGTM before a merge.
-If a submitter or reviewer wants, they can request additional review from others and more LGTMs before merge, which should be used when the code is tricky or could be controversial.
+When code is tricky or controversial, submitters and reviewers can request additional review from others and more LGTMs before merge.
 
 ### What Can I Do to Help?
 
 If you are looking for some way to help the Gonum project, there are good places to start, depending on what you are comfortable with.
 You can [search](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Agonum) for open issues in need of resolution.
-You can improve documentation, or write longer examples.
+You can improve documentation, or improve examples.
 You can add and improve tests.
 You can improve performance, either by improving accuracy, speed, or both.
 You can suggest and implement new features that you think belong in Gonum.
