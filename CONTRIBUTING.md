@@ -40,7 +40,8 @@ Excerpted from the [Go conduct document](https://golang.org/conduct).
 The purpose of the Gonum project is to provide general purpose numerical computing and data science libraries for the Go programming language.
 The libraries should aim to provide building blocks for disciplinary work and advanced algorithms.
 Code should be implemented in pure Go.
-Calls to assembly, C, Fortran, or other languages may be justified with performance considerations, but should be opt-in for users.
+Calls to C, Fortran, or other languages may be justified with performance considerations, but should be opt-in for users.
+Calls to assembly should be opt-out.
 
 ### The Gonum Repositories
 
