@@ -22,9 +22,6 @@ This document is for anyone who is contributing or interested in contributing.
 
 ## Getting Started
 
-Gonum discussion takes place on the [gonum-dev google group](https://groups.google.com/forum/#!forum/gonum-dev).
-Code can be found at github.com/gonum/&lt;repo&gt;, and documentation at godoc.org/github.com/gonum/&lt;repo&gt;.
-
 ### Working Together
 
 When contributing or otherwise participating, please:
@@ -49,6 +46,7 @@ Calls to assembly, C, Fortran, or other languages may be justified with performa
 
 Here are the current repositories for the gonum project.
 If code you want to contribute doesn't quite fit in any of them, then please start a discussion on the [mailing list](https://groups.google.com/forum/#!forum/gonum-dev).
+Code can be found at [github.com/gonum/](https://github.com/gonum/)&lt;repo&gt;, and documentation at godoc.org/github.com/gonum/&lt;repo&gt;.
 
 * [matrix](https://github.com/gonum/matrix) - Matrix packages for the Go language.
 * [plot](https://github.com/gonum/plot) - A repository for plotting and visualizing data
