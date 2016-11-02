@@ -11,16 +11,19 @@ This document is for anyone who is contributing or interested in contributing.
   * [Project Goals](#project-goals)
   * [The Gonum Repositories](#the-gonum-repositories)
 
-[How to Contribute](#how-to-contribute)
+[Contributing](#Contributing)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Your First Code Contribution](#your-first-code-contribution)
-  * [Pull Requests](#pull-requests)
+  * [Code Contribution](#code-contribution)
+  * [Code Review](#code-review)
+  * [What Can I Do to Help?](#what-can-i-do-to-help)
   * [Style](#style)
 
 ## Getting Started
 
 Gonum discussion takes place on the [gonum-dev google group](https://groups.google.com/forum/#!forum/gonum-dev).
+Code can be found at github.com/gonum/&lt;repo&gt;, and documentation at godoc.org/github.com/gonum/&lt;repo&gt;.
 
 ### Working Together
 
