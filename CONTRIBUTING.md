@@ -96,16 +96,24 @@ For exceptions, added code must also follow a BSD license.
 If it is possible to split a large pull request into two or more smaller pull requests, please try to do so.
 Pull requests should include tests for any new code before merging.
 It is ok to start a pull request on partially implemented code to get feedback, and see if your approach to a problem is sound.
-You don't need to have tests, or even have code that compiles to open a pull request.
+You don't need to have tests, or even have code that compiles to open a pull request, although both will be needed before merge.
 When tests use magic numbers, please include a comment explaining the source of the number.
 Benchmarks are optional for new features, but if you are submitting a pull request justified by performance improvement, you will need benchmarks to measure the impact of your change, and the pull request should include a report from [benchcmp](https://godoc.org/golang.org/x/tools/cmd/benchcmp) or, preferably, [benchstat](https://github.com/rsc/benchstat).
 
 ### Code Review
 
 If you are a contributor, please be welcoming to new contributors.  [Here](http://sarah.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/) is a good guide.
-We follow the convention of requiring at least 1 LGTM before a merge.
+
+There are several terms code reviews may use that you should become familiar with.
+
+  * ` LGTM ` — looks good to me
+  * ` SGTM ` — sounds good to me
+  * ` s/foo/bar/ ` — please replace ` foo ` with ` bar `; this is [sed syntax](http://en.wikipedia.org/wiki/Sed#Usage).
+  * ` s/foo/bar/g ` — please replace ` foo ` with ` bar ` throughout your entire change
+
+We follow the convention of requiring at least 1 reviewer to say LGTM before a merge.
 When code is tricky or controversial, submitters and reviewers can request additional review from others and more LGTMs before merge.
-You can ask for more review by saying "PTAL" in a comment in a pull request.
+You can ask for more review by saying PTAL in a comment in a pull request.
 You can follow a PTAL with one or more @someone to get the attention of particular people.
 If you don't know who to ask, and aren't getting enough review after saying PTAL, then PTAL @gonum/developers will get more attention.
 Also note that you do not have to be the pull request submitter to request additional review.
