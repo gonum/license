@@ -35,7 +35,7 @@ Where possible, the source of algorithms should be referenced in the comments.
 
 Here are the current repositories for the gonum project.
 If code you want to contribute doesn't quite fit in any of them, then please start a discussion on the [mailing list](https://groups.google.com/forum/#!forum/gonum-dev).
-Code can be found at [github.com/gonum/](https://github.com/gonum/)&lt;repo&gt;, and documentation at godoc.org/github.com/gonum/&lt;repo&gt;.
+Code can be found at [github.com/gonum/](https://github.com/gonum/)\<repo\>, and documentation at godoc.org/github.com/gonum/\<repo\>.
 
 * [matrix](https://github.com/gonum/matrix) - Matrix packages for the Go language.
 * [plot](https://github.com/gonum/plot) - A repository for plotting and visualizing data
@@ -103,6 +103,10 @@ Benchmarks are optional for new features, but if you are submitting a pull reque
 If you are a contributor, please be welcoming to new contributors.  [Here](http://sarah.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/) is a good guide.
 We follow the convention of requiring at least 1 LGTM before a merge.
 When code is tricky or controversial, submitters and reviewers can request additional review from others and more LGTMs before merge.
+You can ask for more review by saying "PTAL" in a comment in a pull request.
+You can follow a PTAL with one or more @someone to get the attention of particular people.
+If you don't know who to ask, and aren't getting enough review after saying PTAL, then PTAL @gonum/developers will get more attention.
+Also note that you do not have to be the pull request submitter to request additional review.
 
 ### What Can I Do to Help?
 
