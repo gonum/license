@@ -28,7 +28,7 @@ Code should be implemented in pure Go.
 Calls to C, Fortran, or other languages may be justified with performance considerations, but should be opt-in for users.
 Calls to assembly should be opt-out, if included.
 Code should favor readability and explicitness over cleverness.
-This should make code easier to review, and also should provide meaningful examples of numerical computing in Go.
+This makes code easy to review and verify, not only at submission, but also for users who want to understand how the algorithms work.
 Where possible, the source of algorithms should be referenced in the comments.
 
 ## The Gonum Repositories
