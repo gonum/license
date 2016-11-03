@@ -3,6 +3,7 @@
 
 The Gonum project provides general purpose numerical computing and data science libraries for the Go programming language, and we would like you to join us in improving Gonum's quality and scope.
 This document is for anyone who is contributing or interested in contributing.
+Questions about Gonum or the use of its libraries can be directed to [gonum-dev](https://groups.google.com/forum/#!forum/gonum-dev).
 
 #### Table of Contents
 
