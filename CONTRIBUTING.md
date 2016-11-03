@@ -6,12 +6,12 @@ This document is for anyone who is contributing or interested in contributing.
 
 #### Table of Contents
 
-[Getting Started](#getting-started)
-  * [Working Together](#working-together)
-  * [Project Goals](#project-goals)
-  * [The Gonum Repositories](#the-gonum-repositories)
+[Project Scope](#project-scope)
+
+[The Gonum Repositories](#the-gonum-repositories)
 
 [Contributing](#Contributing)
+  * [Working Together](#working-together)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Your First Code Contribution](#your-first-code-contribution)
@@ -20,30 +20,15 @@ This document is for anyone who is contributing or interested in contributing.
   * [What Can I Do to Help?](#what-can-i-do-to-help)
   * [Style](#style)
 
-## Getting Started
-
-### Working Together
-
-When contributing or otherwise participating, please:
-
-- Be friendly and welcoming
-- Be patient
-- Be thoughtful
-- Be respectful
-- Be charitable
-- Avoid destructive behavior
-
-Excerpted from the [Go conduct document](https://golang.org/conduct).
-
-### Project Scope
+## Project Scope
 
 The purpose of the Gonum project is to provide general purpose numerical computing and data science libraries for the Go programming language.
 The libraries should aim to provide building blocks for disciplinary work and advanced algorithms.
 Code should be implemented in pure Go.
 Calls to C, Fortran, or other languages may be justified with performance considerations, but should be opt-in for users.
-Calls to assembly should be opt-out.
+Calls to assembly should be opt-out, if included.
 
-### The Gonum Repositories
+## The Gonum Repositories
 
 Here are the current repositories for the gonum project.
 If code you want to contribute doesn't quite fit in any of them, then please start a discussion on the [mailing list](https://groups.google.com/forum/#!forum/gonum-dev).
@@ -67,6 +52,19 @@ Code can be found at [github.com/gonum/](https://github.com/gonum/)&lt;repo&gt;,
 * [gonum.github.io](https://github.com/gonum/gonum.github.io) - Gonum website
 
 ## Contributing
+
+### Working Together
+
+When contributing or otherwise participating, please:
+
+- Be friendly and welcoming
+- Be patient
+- Be thoughtful
+- Be respectful
+- Be charitable
+- Avoid destructive behavior
+
+Excerpted from the [Go conduct document](https://golang.org/conduct).
 
 ### Reporting Bugs
 
