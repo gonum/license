@@ -38,22 +38,22 @@ Here are the current repositories for the gonum project.
 If code you want to contribute doesn't quite fit in any of them, then please start a discussion on the [mailing list](https://groups.google.com/forum/#!forum/gonum-dev).
 Code can be found at [github.com/gonum/](https://github.com/gonum/)\<repo\>, and documentation at godoc.org/github.com/gonum/\<repo\>.
 
-* [matrix](https://github.com/gonum/matrix) - Matrix packages for the Go language.
-* [plot](https://github.com/gonum/plot) - A repository for plotting and visualizing data
-* [stat](https://github.com/gonum/stat) - Statistics package for Go
-* [blas](https://github.com/gonum/blas) - A blas implementation for Go.
-* [lapack](https://github.com/gonum/lapack) - A lapack implementation for go
-* [floats](https://github.com/gonum/floats) - Operations on slices of floats
-* [integrate](https://github.com/gonum/integrate) - integrate implements routines for numerical integration for the Go language
-* [diff](https://github.com/gonum/diff) - Set of tools for computing derivatives of a function
-* [graph](https://github.com/gonum/graph) - Graph packages for the Go language
-* [optimize](https://github.com/gonum/optimize) - Package for finding the optimum value of functions.
-* [unit](https://github.com/gonum/unit) - Package for converting between scientific units
-* [mathext](https://github.com/gonum/mathext) - mathext implements basic elementary functions not included in the Go standard library
-* [internal](https://github.com/gonum/internal) - Internal routines for the gonum project
-* [license](https://github.com/gonum/license) - Master license, author, contributor etc information.
-* [talks](https://github.com/gonum/talks) - Talks given about Go and Gonum delivered by Gonum developers.
-* [gonum.github.io](https://github.com/gonum/gonum.github.io) - Gonum website
+* [matrix](https://github.com/gonum/matrix) — Implements data containers for matrix types (Dense, Symmetric), and higher-level operations using them (SVD, Linear solve)
+* [plot](https://github.com/gonum/plot) — A repository for plotting and visualizing data
+* [stat](https://github.com/gonum/stat) — Contains statistics routines for linear and multi-dimensional data, univariate and multivariate sampling distributions, and advanced sampling routines
+* [blas](https://github.com/gonum/blas) — Native Go BLAS implementation for float64 and float32, and c-wrapper for external libraries
+* [lapack](https://github.com/gonum/lapack) — Native Go implementation of many LAPACK routines and c-wrapper for LAPACKE
+* [floats](https://github.com/gonum/floats) — Operations on slices of floats
+* [integrate](https://github.com/gonum/integrate) — Routines for numeric evaluation of integrals (quadrature)
+* [diff](https://github.com/gonum/diff) — Routines for computing derivatives
+* [graph](https://github.com/gonum/graph) — Implements types and interfaces for graphs (networks), and implements higher-level routines (A-star, Kruskal)
+* [optimize](https://github.com/gonum/optimize) — Package for searching for the optimal value of functions
+* [unit](https://github.com/gonum/unit) — Package for converting between scientific units
+* [mathext](https://github.com/gonum/mathext) — Implements basic elementary functions not included in the Go standard library
+* [internal](https://github.com/gonum/internal) — Internal routines for the gonum project
+* [license](https://github.com/gonum/license) — Master license, author, contributor etc information
+* [talks](https://github.com/gonum/talks) — Talks given about Go and Gonum delivered by Gonum developers
+* [gonum.github.io](https://github.com/gonum/gonum.github.io) — Gonum website
 
 ## Contributing
 
