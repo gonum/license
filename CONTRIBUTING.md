@@ -1,11 +1,10 @@
 # [<img src="https://avatars1.githubusercontent.com/u/3771091?v=3&s=30">](https://github.com/gonum) Contribution Guidelines
-#### Introduction
 
 The Gonum project provides general purpose numerical computing and data science libraries for the Go programming language, and we would like you to join us in improving Gonum's quality and scope.
 This document is for anyone who is contributing or interested in contributing.
 Questions about Gonum or the use of its libraries can be directed to [gonum-dev](https://groups.google.com/forum/#!forum/gonum-dev).
 
-#### Table of Contents
+## Table of Contents
 
 [Project Scope](#project-scope)
 
@@ -38,20 +37,20 @@ Here are the current repositories for the gonum project.
 If code you want to contribute doesn't quite fit in any of them, then please start a discussion on the [mailing list](https://groups.google.com/forum/#!forum/gonum-dev).
 Code can be found at [github.com/gonum/](https://github.com/gonum/)\<repo\>, and documentation at godoc.org/github.com/gonum/\<repo\>.
 
-* [matrix](https://github.com/gonum/matrix) — Implements data containers for matrix types (Dense, Symmetric), and higher-level operations using them (SVD, Linear solve)
-* [plot](https://github.com/gonum/plot) — A repository for plotting and visualizing data
-* [stat](https://github.com/gonum/stat) — Contains statistics routines for linear and multi-dimensional data, univariate and multivariate sampling distributions, and advanced sampling routines
-* [blas](https://github.com/gonum/blas) — Native Go BLAS implementation for float64 and float32, and c-wrapper for external libraries
-* [lapack](https://github.com/gonum/lapack) — Native Go implementation of many LAPACK routines and c-wrapper for LAPACKE
+* [matrix](https://github.com/gonum/matrix) — Data containers for matrix types, and higher-level operations using them (factorizations, solution of linear systems)
+* [plot](https://github.com/gonum/plot) — Plotting and visualizing data
+* [stat](https://github.com/gonum/stat) — Statistics routines for linear and multi-dimensional data, univariate and multivariate sampling distributions, and advanced sampling routines
+* [blas](https://github.com/gonum/blas) — Native Go BLAS implementation for float64 and float32, and cgo wrapper for external libraries
+* [lapack](https://github.com/gonum/lapack) — Native Go implementation of many LAPACK routines and cgo wrapper for LAPACKE
 * [floats](https://github.com/gonum/floats) — Operations on slices of floats
-* [integrate](https://github.com/gonum/integrate) — Routines for numeric evaluation of integrals (quadrature)
+* [integrate](https://github.com/gonum/integrate) — Routines for numerical evaluation of integrals (quadrature)
 * [diff](https://github.com/gonum/diff) — Routines for computing derivatives
-* [graph](https://github.com/gonum/graph) — Implements types and interfaces for graphs (networks), and implements higher-level routines (A-star, Kruskal)
-* [optimize](https://github.com/gonum/optimize) — Package for searching for the optimal value of functions
+* [graph](https://github.com/gonum/graph) — Interfaces and types for graphs, and higher-level algorithms using them (e.g., graph traversal, path finding, network analysis)
+* [optimize](https://github.com/gonum/optimize) — Algorithms for solving optimization problems
 * [unit](https://github.com/gonum/unit) — Package for converting between scientific units
-* [mathext](https://github.com/gonum/mathext) — Implements basic elementary functions not included in the Go standard library
-* [internal](https://github.com/gonum/internal) — Internal routines for the gonum project
-* [license](https://github.com/gonum/license) — Master license, author, contributor etc information
+* [mathext](https://github.com/gonum/mathext) — Basic elementary functions not included in the Go standard library
+* [internal](https://github.com/gonum/internal) — Internal routines for the Gonum project
+* [license](https://github.com/gonum/license) — Master license, author, contributor information, etc.
 * [talks](https://github.com/gonum/talks) — Talks given about Go and Gonum delivered by Gonum developers
 * [gonum.github.io](https://github.com/gonum/gonum.github.io) — Gonum website
 
